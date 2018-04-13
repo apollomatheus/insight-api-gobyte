@@ -1,8 +1,8 @@
 {
-  "name": "@dashevo/insight-api",
-  "description": "A Dash blockchain REST and web socket API service for Bitcore Node.",
+  "name": "@gobytecoin/insight-api",
+  "description": "A GoByte blockchain REST and web socket API service for Bitcore Node.",
   "version": "0.6.0",
-  "repository": "git://github.com/dashevo/insight-api-dash.git",
+  "repository": "git://github.com/gobytecoin/insight-api-gobyte.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -38,18 +38,18 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/dashevo/insight-api-dash/issues"
+    "url": "https://github.com/gobytecoin/insight-api-gobyte/issues"
   },
-  "homepage": "https://github.com/dashevo/insight-api-dash",
+  "homepage": "https://github.com/gobytecoin/insight-api-gobyte",
   "license": "MIT",
   "keywords": [
     "insight",
     "insight api",
     "blockchain",
-    "dash api",
+    "gobyte api",
     "blockchain api",
     "json",
-    "bitcore-dash"
+    "bitcore-gobyte"
   ],
   "engines": {
     "node": ">=0.12.0"
@@ -61,8 +61,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib-dash": "^0.15.2",
-    "bitcore-message-dash": "^1.0.9",
+    "bitcore-lib-gobyte": "gobytecoin/bitcore-lib-gobyte",
+    "bitcore-message-gobyte": "gobytecoin/bitcore-message-gobyte",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "=4.17.1",
