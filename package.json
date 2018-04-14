@@ -1,5 +1,5 @@
 {
-  "name": "@gobytecoin/insight-api",
+  "name": "insight-api-gobyte",
   "description": "A GoByte blockchain REST and web socket API service for Bitcore Node.",
   "version": "0.6.0",
   "repository": "git://github.com/gobytecoin/insight-api-gobyte.git",
