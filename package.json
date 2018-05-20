@@ -2,7 +2,7 @@
   "name": "insight-api-gobyte",
   "description": "A GoByte blockchain REST and web socket API service for Bitcore Node.",
   "version": "0.6.0",
-  "repository": "git://github.com/gobytecoin/insight-api-gobyte.git",
+  "repository": "git://github.com/apollomatheus/insight-api-gobyte.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -40,7 +40,7 @@
   "bugs": {
     "url": "https://github.com/gobytecoin/insight-api-gobyte/issues"
   },
-  "homepage": "https://github.com/gobytecoin/insight-api-gobyte",
+  "homepage": "https://github.com/apollomatheus/insight-api-gobyte",
   "license": "MIT",
   "keywords": [
     "insight",
@@ -61,8 +61,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib-gobyte": "gobytecoin/bitcore-lib-gobyte",
-    "bitcore-message-gobyte": "gobytecoin/bitcore-message-gobyte",
+    "bitcore-lib-gobyte": "apollomatheus/bitcore-lib-gobyte",
+    "bitcore-message-gobyte": "apollomatheus/bitcore-message-gobyte",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "=4.17.1",
