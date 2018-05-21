@@ -61,7 +61,7 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib-gobyte": "apollomatheus/bitcore-lib-gobyte",
+    "bitcore-lib": "apollomatheus/bitcore-lib",
     "bitcore-message-gobyte": "apollomatheus/bitcore-message-gobyte",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
